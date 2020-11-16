@@ -1,0 +1,27 @@
+.wrapper {
+  background: rgb(96, 209, 96);
+  width: 90%;
+  max-width: 300px;
+  margin: 3em auto 0;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-box-shadow: 0px 4px 20px 1px rgb(96, 209, 96);
+  -moz-box-shadow: 0px 4px 20px 1px rgb(96, 209, 96);
+  box-shadow: 0px 4px 20px 1px rgb(96, 209, 96);
+  transition: 0.2s;
+}
+.wrapper:hover {
+  box-shadow: none;
+}
+.wrapper img {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.wrapper h2 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}

@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  background-color: rgb(96, 209, 96);
+  font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar h1 {
+  margin-left: 0.1em;
+  padding: 0.3em 0;
+  font-family: "Akronim", cursive;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin-right: 1em;
+}
+.title {
+  text-align: center;
+  margin-top: 1.5em;
+}
+.title h4 {
+  margin-top: 10px;
+}
+.clinicswrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+@media (min-width: 1024px) {
+  .clinicswrapper {
+    flex-direction: row;
+    padding-bottom: 1em;
+  }
+  .navbar ul li {
+    font-size: 1.3em;
+    margin-right: 2em;
+  }
+  .navbar h1 {
+    margin-left: 1em;
+  }
+  .title h4 {
+    font-size: 1.2em;
+  }
+}
