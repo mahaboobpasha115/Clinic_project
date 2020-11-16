@@ -57,6 +57,10 @@ class  Signup extends Component {
             return true;
     }
 
+    handleBack = () => {
+      this.props.history.push("/");
+    };
+
     handleSubmit = (e) => {
         e.preventDefault();
         const isValid = this.validate();
@@ -91,7 +95,9 @@ class  Signup extends Component {
                 name="userName" value={this.state.userName}
                 onChange={this.handleChange}/>
                 </label>
-                <div className={styling.error}>{this.state.userNameError}</div>
+                <div className={styling.error}>
+                  {this.state.userNameError}
+                  </div>
                 
                 <label className={styling.email}>
                 <input  
@@ -110,8 +116,8 @@ class  Signup extends Component {
                 onChange={this.handleChange}/>
                 </label>
                 <div className={styling.error}>{this.state.passwordError}</div>
-            <button type="submit" className={styling.sign}>Sign Up</button>
-             <ToastContainer />
+            <button type="submit" className={styling.sign} onClick={this.handleBack} >Sign Up</button>
+             <ToastContainer/>
             </form>
         </div>
     )

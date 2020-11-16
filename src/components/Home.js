@@ -20,14 +20,14 @@ function Home(){
              <h1>Health+</h1>
                <ul>
                    <li>
-                       <NavLink to="/" style={{textDecoration:"none",color:"black"}}>Home</NavLink>
+                       <NavLink to="/" style={{textDecoration:"none",color:"white"}}>Home</NavLink>
                        </li>
                    
                 <li>
-                    <NavLink to="/admin" style={{textDecoration:"none",color:"black"}}>Admin</NavLink>
+                    <NavLink to="/admin" style={{textDecoration:"none",color:"white"}}>Admin</NavLink>
                 </li>
                    <li>
-                       <NavLink to="/signup" style={{textDecoration:"none",color:"black"}}>Sign-up
+                       <NavLink to="/signup" style={{textDecoration:"none",color:"white"}}>Sign-up
                        </NavLink>
                        </li>
                </ul>

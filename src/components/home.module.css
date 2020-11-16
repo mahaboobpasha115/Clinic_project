@@ -4,7 +4,7 @@
   font-family: "Roboto", sans-serif;
 }
 .navbar {
-  background-color: rgb(96, 209, 96);
+  background-image: linear-gradient(90deg, #5b3c72 0%, #1488a5 100%);
   font-weight: 800;
   display: flex;
   justify-content: space-between;
@@ -13,6 +13,7 @@
   margin-left: 0.1em;
   padding: 0.3em 0;
   font-family: "Akronim", cursive;
+  color: white;
 }
 .navbar ul {
   display: flex;
@@ -22,6 +23,7 @@
 
 .navbar ul li {
   margin-right: 1em;
+  
 }
 .title {
   text-align: center;
