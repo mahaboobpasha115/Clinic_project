@@ -28,8 +28,8 @@ class Admin extends Component  {
                             <th>Email</th>
                         </tr>
                     </thead>
-                   
                     <tbody className={styling.bod}>
+
         {this.state.signedUpInfo && 
         this.state.signedUpInfo.map((signedInfo) => (
             <tr key={signedInfo.id}>

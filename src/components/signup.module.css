@@ -41,10 +41,18 @@
   width: 30%;
   margin-left: 35%;
   color: white;
-  background-color: black;
 }
-.error {
+.errorname {
   color: red;
+  margin-left: 20%;
+}
+.erroremail {
+  color: red;
+  margin-left: 20%;
+}
+.errorpass {
+  color: red;
+  margin-left: 20%;
 }
 
 @media (min-width: 1024px) {
@@ -67,5 +75,15 @@
   .sign {
     width: 10%;
     margin-left: 45%;
+  }
+  .errorname {
+    margin-left: 40%;
+    padding-top: 0;
+  }
+  .erroremail {
+    margin-left: 40%;
+  }
+  .errorpass {
+    margin-left: 40%;
   }
 }

@@ -58,7 +58,7 @@ class  Signup extends Component {
     }
 
     handleBack = () => {
-      this.props.history.push("/");
+      this.props.history.push("/admin");
     };
 
     handleSubmit = (e) => {
@@ -95,7 +95,7 @@ class  Signup extends Component {
                 name="userName" value={this.state.userName}
                 onChange={this.handleChange}/>
                 </label>
-                <div className={styling.error}>
+                <div className={styling.errorname}>
                   {this.state.userNameError}
                   </div>
                 
@@ -106,7 +106,7 @@ class  Signup extends Component {
                 value={this.state.email}
                 onChange={this.handleChange}/>
 </label>
-                <div className={styling.error}>{this.state.emailError}</div>
+                <div className={styling.erroremail}>{this.state.emailError}</div>
                 
                 <label className={styling.password}>
                 <input type="password"
@@ -115,8 +115,8 @@ class  Signup extends Component {
                 value={this.state.password}
                 onChange={this.handleChange}/>
                 </label>
-                <div className={styling.error}>{this.state.passwordError}</div>
-            <button type="submit" className={styling.sign} onClick={this.handleBack} >Sign Up</button>
+                <div className={styling.errorpass}>{this.state.passwordError}</div>
+            <button type="submit" className={styling.sign} >Sign Up</button>
              <ToastContainer/>
             </form>
         </div>
