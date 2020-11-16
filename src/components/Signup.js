@@ -91,7 +91,7 @@ class  Signup extends Component {
                 name="userName" value={this.state.userName}
                 onChange={this.handleChange}/>
                 </label>
-                <div className="errors">{this.state.userNameError}</div>
+                <div className={styling.error}>{this.state.userNameError}</div>
                 
                 <label className={styling.email}>
                 <input  
@@ -100,7 +100,7 @@ class  Signup extends Component {
                 value={this.state.email}
                 onChange={this.handleChange}/>
 </label>
-                <div className="errors">{this.state.emailError}</div>
+                <div className={styling.error}>{this.state.emailError}</div>
                 
                 <label className={styling.password}>
                 <input type="password"
@@ -109,7 +109,7 @@ class  Signup extends Component {
                 value={this.state.password}
                 onChange={this.handleChange}/>
                 </label>
-                <div className="errors">{this.state.passwordError}</div>
+                <div className={styling.error}>{this.state.passwordError}</div>
             <button type="submit" className={styling.sign}>Sign Up</button>
              <ToastContainer />
             </form>
