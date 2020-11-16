@@ -17,9 +17,7 @@ class Smiles extends Component {
                 </div>
                 <div className={stylings.wrapper}>
                 <Carousel autoPlay className={stylings.sliders} infiniteLoop={true} showArrows={false} showThumbs={false} showStatus={false}>
-                      <div className={stylings.slider}>
-                       <img alt="" src="32smiles1.jpg"/>
-                      </div>
+                     
                       <div className={stylings.slider}>
                        <img alt="" src="32smiles2.jpg" />
                       </div>
